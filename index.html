@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="vi" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Võ Mạnh Dũng | Data Science Portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #0f172a; }
+        ::-webkit-scrollbar-thumb { background: #334155; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #475569; }
+    </style>
+</head>
+<body class="bg-[#0b0f19] text-slate-200 font-sans antialiased selection:bg-cyan-500 selection:text-slate-900">
+
+    <header class="fixed top-0 left-0 w-full z-50 bg-[#0b0f19]/80 backdrop-blur-md border-b border-slate-800/50">
+        <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="#" class="text-xl font-bold tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
+                VMD<span class="text-white">.DS</span>
+            </a>
+            <nav class="hidden md:flex items-center space-x-8">
+                <a href="#gioi-thieu" class="text-sm font-medium hover:text-cyan-400 transition-colors duration-300">1. Giới thiệu</a>
+                <a href="#du-an" class="text-sm font-medium hover:text-cyan-400 transition-colors duration-300">2. Dự án</a>
+                <a href="#tong-ket" class="text-sm font-medium hover:text-cyan-400 transition-colors duration-300">3. Tổng kết</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="gioi-thieu" class="min-h-screen flex items-center pt-20 relative overflow-hidden">
+        <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl -z-10 animate-pulse"></div>
+        <div class="max-w-4xl mx-auto px-6 w-full py-12">
+            <div data-aos="fade-up" data-aos-duration="1000">
+                <span class="text-cyan-400 font-mono text-sm tracking-widest block mb-3">XIN CHÀO, TÔI LÀ</span>
+                <h1 class="text-5xl md:text-7xl font-extrabold text-white tracking-tight mb-4">Võ Mạnh Dũng</h1>
+                <h2 class="text-2xl md:text-3xl font-semibold text-slate-400 mb-6">
+                    Chuyên ngành: <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">Khoa học dữ liệu</span>
+                </h2>
+                <p class="text-slate-400 max-w-2xl text-lg leading-relaxed mb-10">
+                    Chào mừng bạn đến với không gian lưu trữ và trình bày các sản phẩm học tập của tôi. Nơi ghi lại hành trình khám phá tri thức từ những bài học đầu tiên đến các bài báo nghiên cứu dữ liệu thực tế.
+                </p>
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" class="border-t border-slate-800/80 pt-8">
+                <h3 class="text-lg font-bold tracking-wide uppercase text-slate-300 mb-6 flex items-center">
+                    <i class="fa-solid fa-bullseye text-cyan-400 mr-3"></i> Mục tiêu học tập
+                </h3>
+                <div class="grid md:grid-cols-2 gap-4 mb-6">
+                    <div class="bg-slate-900/40 border border-slate-800/60 p-5 rounded-xl hover:border-cyan-500/30 transition-all duration-300 group">
+                        <div class="w-10 h-10 rounded-lg bg-cyan-500/10 flex items-center justify-center text-cyan-400 mb-3 group-hover:bg-cyan-500 group-hover:text-slate-900 transition-colors duration-300">
+                            <i class="fa-solid fa-laptop-code"></i>
+                        </div>
+                        <h4 class="font-semibold text-white mb-1">Kỹ năng số bản lề</h4>
+                        <p class="text-sm text-slate-400">Thành thạo và áp dụng linh hoạt các kỹ năng số đã được tích lũy thông qua 6 modules cốt lõi vào giải quyết bài toán thực tế.</p>
+                    </div>
+                    <div class="bg-slate-900/40 border border-slate-800/60 p-5 rounded-xl hover:border-cyan-500/30 transition-all duration-300 group">
+                        <div class="w-10 h-10 rounded-lg bg-cyan-500/10 flex items-center justify-center text-cyan-400 mb-3 group-hover:bg-cyan-500 group-hover:text-slate-900 transition-colors duration-300">
+                            <i class="fa-solid fa-box-archive"></i>
+                        </div>
+                        <h4 class="font-semibold text-white mb-1">Lưu trữ sản phẩm cá nhân</h4>
+                        <p class="text-sm text-slate-400">Xây dựng không gian trung tâm giúp quản lý, dễ dàng truy cập và chia sẻ các dự án cá nhân một cách chuyên nghiệp.</p>
+                    </div>
+                </div>
+
+                <div class="bg-slate-900/20 border border-slate-800/50 rounded-xl p-5">
+                    <h4 class="text-xs font-mono text-cyan-400 mb-4 uppercase tracking-wider">
+                        <i class="fa-solid fa-layer-group mr-2"></i> Định hướng nội dung tích lũy qua 6 chuyên đề cốt lõi:
+                    </h4>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 text-xs text-slate-400">
+                        <div class="flex items-center gap-2 bg-[#0f172a]/50 p-2.5 rounded-lg border border-slate-800/60">
+                            <i class="fa-solid fa-display text-cyan-500"></i>
+                            <span>1. Máy tính & Thiết bị ngoại vi</span>
+                        </div>
+                        <div class="flex items-center gap-2 bg-[#0f172a]/50 p-2.5 rounded-lg border border-slate-800/60">
+                            <i class="fa-solid fa-database text-cyan-500"></i>
+                            <span>2. Khai thác dữ liệu & thông tin</span>
+                        </div>
+                        <div class="flex items-center gap-2 bg-[#0f172a]/50 p-2.5 rounded-lg border border-slate-800/60">
+                            <i class="fa-solid fa-microchip text-cyan-500"></i>
+                            <span>3. Tổng quan về AI</span>
+                        </div>
+                        <div class="flex items-center gap-2 bg-[#0f172a]/50 p-2.5 rounded-lg border border-slate-800/60">
+                            <i class="fa-solid fa-users-gear text-cyan-500"></i>
+                            <span>4. Giao tiếp & Hợp tác số</span>
+                        </div>
+                        <div class="flex items-center gap-2 bg-[#0f172a]/50 p-2.5 rounded-lg border border-slate-800/60">
+                            <i class="fa-solid fa-wand-magic-sparkles text-cyan-500"></i>
+                            <span>5. Sáng tạo nội dung số</span>
+                        </div>
+                        <div class="flex items-center gap-2 bg-[#0f172a]/50 p-2.5 rounded-lg border border-slate-800/60">
+                            <i class="fa-solid fa-shield-halved text-cyan-500"></i>
+                            <span>6. An toàn & Liêm chính số</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="du-an" class="py-24 bg-[#080c14] border-y border-slate-900">
+        <div class="max-w-5xl mx-auto px-6">
+            <div class="mb-12 text-center md:text-left" data-aos="fade-up">
+                <span class="text-cyan-400 font-mono text-sm tracking-widest block mb-2">DANH MỤC SẢN PHẨM</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-white tracking-tight">Các Bài Tập Dự Án</h2>
+                <div class="h-1 w-20 bg-gradient-to-r from-cyan-500 to-blue-500 mt-4 mx-auto md:mx-0 rounded-full"></div>
+            </div>
+
+            <div class="space-y-4">
+                
+                <div data-aos="fade-up" class="bg-slate-900/30 border border-slate-800/60 rounded-xl p-5 flex flex-col lg:flex-row lg:items-center justify-between gap-4 hover:border-slate-700 transition-all duration-300">
+                    <div class="flex-1">
+                        <div class="flex items-center gap-3 mb-1.5">
+                            <span class="text-xs font-mono text-cyan-400 font-bold px-2 py-0.5 rounded bg-cyan-500/10">Bài tập 01</span>
+                            <h3 class="text-lg font-bold text-white">Báo cáo nghiên cứu số 1</h3>
+                        </div>
+                        <p class="text-sm text-slate-400 leading-relaxed">Thao tác cơ bản với tệp tin và thư mục.</p>
+                    </div>
+                    <div class="flex flex-wrap items-center gap-3 shrink-0">
+                        <a href="https://drive.google.com/file/d/1-a0xM0AYDwMoltVzxMuVEljjahqEi6vh/view?usp=drive_link" target="_blank" class="inline-flex items-center gap-2 px-4 py-2 text-xs font-semibold rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 transition-all duration-300 border border-slate-700/60 shadow-sm">
+                            <i class="fa-solid fa-eye text-cyan-400"></i> Xem Trên Drive
+                        </a>
+                        <a href="baocao1.zip" download="VoManhDung_BaiTap1.zip" class="inline-flex items-center gap-2 px-4 py-2 text-xs font-semibold rounded-lg bg-cyan-600 text-slate-950 hover:bg-cyan-400 transition-all duration-300 shadow-sm">
+                            <i class="fa-solid fa-download"></i> Tải File (.ZIP)
+                        </a>
+                    </div>
+                </div>
+
+                <div data-aos="fade-up" class="bg-slate-900/30 border border-slate-800/60 rounded-xl p-5 flex flex-col lg:flex-row lg:items-center justify-between gap-4 hover:border-slate-700 transition-all duration-300">
+                    <div class="flex-1">
+                        <div class="flex items-center gap-3 mb-1.5">
+                            <span class="text-xs font-mono text-cyan-400 font-bold px-2 py-0.5 rounded bg-cyan-500/10">Bài tập 02</span>
+                            <h3 class="text-lg font-bold text-white">Báo cáo nghiên cứu số 2</h3>
+                        </div>
+                        <p class="text-sm text-slate-400 leading-relaxed">Tìm kiếm và đánh giá thông tin học thuật.</p>
+                    </div>
+                    <div class="flex flex-wrap items-center gap-3 shrink-0">
+                        <a href="https://docs.google.com/document/d/1QTyUuxrqluaro_ArqqhIxiVMSnTS6r_Q/edit?usp=drive_link&ouid=107484749485653256762&rtpof=true&sd=true" target="_blank" class="inline-flex items-center gap-2 px-4 py-2 text-xs font-semibold rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 transition-all duration-300 border border-slate-700/60 shadow-sm">
+                            <i class="fa-solid fa-eye text-cyan-400"></i> Xem Trên Drive
+                        </a>
+                        <a href="baocao2.docx" download="VoManhDung_BaiTap2.docx" class="inline-flex items-center gap-2 px-4 py-2 text-xs font-semibold rounded-lg bg-cyan-600 text-slate-950 hover:bg-cyan-400 transition-all duration-300 shadow-sm">
+                            <i class="fa-solid fa-download"></i> Tải Báo Cáo (.DOCX)
+                        </a>
+                    </div>
+                </div>
+
+                <div data-aos="fade-up" class="bg-slate-900/30 border border-slate-800/60 rounded-xl p-5 flex flex-col lg:flex-row lg:items-center justify-between gap-4 hover:border-slate-700 transition-all duration-300">
+                    <div class="flex-1">
+                        <div class="flex items-center gap-3 mb-1.5">
+                            <span class="text-xs font-mono text-cyan-400 font-bold px-2 py-0.5 rounded bg-cyan-500/10">Bài tập 03</span>
+                            <h3 class="text-lg font-bold text-white">Báo cáo nghiên cứu số 3</h3>
+                        </div>
+                        <p class="text-sm text-slate-400 leading-relaxed">Kỹ năng viết prompt cho các tác vụ học tập/nghiên cứu.</p>
+                    </div>
+                    <div class="flex flex-wrap items-center gap-3 shrink-0">
+                        <a href="https://docs.google.com/document/d/10HA-HGWSk9diLGdfSvWlrY_q41hN7RfJ/edit?usp=drive_link&ouid=107484749485653256762&rtpof=true&sd=true" target="_blank" class="inline-flex items-center gap-2 px-4 py-2 text-xs font-semibold rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 transition-all duration-300 border border-slate-700/60 shadow-sm">
+                            <i class="fa-solid fa-eye text-cyan-400"></i> Xem Trên Drive
+                        </a>
+                        <a href="baocao3.docx" download="VoManhDung_BaiTap3.docx" class="inline-flex items-center gap-2 px-4 py-2 text-xs font-semibold rounded-lg bg-cyan-600 text-slate-950 hover:bg-cyan-400 transition-all duration-300 shadow-sm">
+                            <i class="fa-solid fa-download"></i> Tải Báo Cáo (.DOCX)
+                        </a>
+                    </div>
+                </div>
+
+                <div data-aos="fade-up" class="bg-slate-900/30 border border-slate-800/60 rounded-xl p-5 flex flex-col lg:flex-row lg:items-center justify-between gap-4 hover:border-slate-700 transition-all duration-300">
+                    <div class="flex-1">
+                        <div class="flex items-center gap-3 mb-1.5">
+                            <span class="text-xs font-mono text-cyan-400 font-bold px-2 py-0.5 rounded bg-cyan-500/10">Bài tập 04</span>
+                            <h3 class="text-lg font-bold text-white">Báo cáo nghiên cứu số 4</h3>
+                        </div>
+                        <p class="text-sm text-slate-400 leading-relaxed">Kỹ năng sử dụng các công cụ hợp tác trực tuyến.</p>
+                    </div>
+                    <div class="flex flex-wrap items-center gap-3 shrink-0">
+                        <a href="https://docs.google.com/document/d/1okTXmj-NbO8CfAyIt8WVeMF6Qoceqdwt/edit?usp=drive_link&ouid=107484749485653256762&rtpof=true&sd=true" target="_blank" class="inline-flex items-center gap-2 px-4 py-2 text-xs font-semibold rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 transition-all duration-300 border border-slate-700/60 shadow-sm">
+                            <i class="fa-solid fa-eye text-cyan-400"></i> Xem Trên Drive
+                        </a>
+                        <a href="baocao4.docx" download="VoManhDung_BaiTap4.docx" class="inline-flex items-center gap-2 px-4 py-2 text-xs font-semibold rounded-lg bg-cyan-600 text-slate-950 hover:bg-cyan-400 transition-all duration-300 shadow-sm">
+                            <i class="fa-solid fa-download"></i> Tải Báo Cáo (.DOCX)
+                        </a>
+                    </div>
+                </div>
+
+                <div data-aos="fade-up" class="bg-slate-900/30 border border-slate-800/60 rounded-xl p-5 flex flex-col lg:flex-row lg:items-center justify-between gap-4 hover:border-slate-700 transition-all duration-300">
+                    <div class="flex-1">
+                        <div class="flex items-center gap-3 mb-1.5">
+                            <span class="text-xs font-mono text-cyan-400 font-bold px-2 py-0.5 rounded bg-cyan-500/10">Bài tập 05</span>
+                            <h3 class="text-lg font-bold text-white">Báo cáo nghiên cứu số 5</h3>
+                        </div>
+                        <p class="text-sm text-slate-400 leading-relaxed">Kỹ năng sử dụng AI tạo sinh để hỗ trợ quá trình sáng tạo nội dung.</p>
+                    </div>
+                    <div class="flex flex-wrap items-center gap-3 shrink-0">
+                        <a href="https://drive.google.com/file/d/1AjM2YmhtP6u--sdE855-jr3dtUHZlttM/view?usp=drive_link" target="_blank" class="inline-flex items-center gap-2 px-4 py-2 text-xs font-semibold rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 transition-all duration-300 border border-slate-700/60 shadow-sm">
+                            <i class="fa-solid fa-eye text-cyan-400"></i> Xem Trên Drive
+                        </a>
+                        <a href="https://drive.google.com/uc?export=download&id=1AjM2YmhtP6u--sdE855-jr3dtUHZlttM" class="inline-flex items-center gap-2 px-4 py-2 text-xs font-semibold rounded-lg bg-cyan-600 text-slate-950 hover:bg-cyan-400 transition-all duration-300 shadow-sm">
+                            <i class="fa-solid fa-download"></i> Tải File (.ZIP)
+                        </a>
+                    </div>
+                </div>
+
+                <div data-aos="fade-up" class="bg-slate-900/30 border border-slate-800/60 rounded-xl p-5 flex flex-col lg:flex-row lg:items-center justify-between gap-4 hover:border-slate-700 transition-all duration-300">
+                    <div class="flex-1">
+                        <div class="flex items-center gap-3 mb-1.5">
+                            <span class="text-xs font-mono text-cyan-400 font-bold px-2 py-0.5 rounded bg-cyan-500/10">Bài tập 06</span>
+                            <h3 class="text-lg font-bold text-white">Báo cáo nghiên cứu số 6</h3>
+                        </div>
+                        <p class="text-sm text-slate-400 leading-relaxed">Kỹ năng sử dụng AI có trách nhiệm và đạo đức trong học tập/nghiên cứu.</p>
+                    </div>
+                    <div class="flex flex-wrap items-center gap-3 shrink-0">
+                        <a href="https://docs.google.com/document/d/13tHoi_TOdykSGmey0ThhagxkkKzB8YYO/edit?usp=drive_link&ouid=107484749485653256762&rtpof=true&sd=true" target="_blank" class="inline-flex items-center gap-2 px-4 py-2 text-xs font-semibold rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 transition-all duration-300 border border-slate-700/60 shadow-sm">
+                            <i class="fa-solid fa-eye text-cyan-400"></i> Xem Trên Drive
+                        </a>
+                        <a href="baocao6.docx" download="VoManhDung_BaiTap6.docx" class="inline-flex items-center gap-2 px-4 py-2 text-xs font-semibold rounded-lg bg-cyan-600 text-slate-950 hover:bg-cyan-400 transition-all duration-300 shadow-sm">
+                            <i class="fa-solid fa-download"></i> Tải Báo Cáo (.DOCX)
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="tong-ket" class="py-24 min-h-screen flex items-center relative">
+        <div class="max-w-4xl mx-auto px-6 w-full">
+            <div class="mb-12" data-aos="fade-up">
+                <span class="text-cyan-400 font-mono text-sm tracking-widest block mb-2">NHÌN LẠI HÀNH TRÌNH</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-white tracking-tight">Tổng Kết & Trải Nghiệm</h2>
+                <div class="h-1 w-20 bg-gradient-to-r from-cyan-500 to-blue-500 mt-4 rounded-full"></div>
+            </div>
+
+            <div class="grid gap-6">
+                <div data-aos="fade-up" data-aos-delay="100" class="bg-slate-900/40 border border-slate-800/80 p-6 rounded-xl hover:border-cyan-500/20 transition-all duration-300">
+                    <h3 class="text-lg font-bold text-white mb-3 flex items-center">
+                        <i class="fa-solid fa-comment-dots text-cyan-400 mr-2.5"></i> Cảm nhận cá nhân
+                    </h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Học phần này mang lại cho tôi một góc nhìn hoàn toàn mới về cách tiếp cận công nghệ. Không chỉ dừng lại ở lý thuyết kỹ thuật số thông thường, môn học rèn luyện cho tôi tư duy mở, sự liêm chính và tinh thần chủ động đón nhận công cụ mới. Quá trình tự tay xây dựng trang web portfolio này chính là một 'trạm dừng chân' ý nghĩa để tôi tự đánh giá, hệ thống hóa kiến thức bài bản và nhìn thấy rõ nét sự trưởng thành của bản thân qua từng sản phẩm.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div data-aos="fade-up" data-aos-delay="200" class="bg-slate-900/40 border border-slate-800/80 p-6 rounded-xl">
+                        <h3 class="text-lg font-bold text-white mb-3 flex items-center">
+                            <i class="fa-solid fa-graduation-cap text-cyan-400 mr-2.5"></i> Kỹ năng đã học được
+                        </h3>
+                        <ul class="space-y-2 text-slate-400 text-sm">
+                            <li class="flex items-start"><i class="fa-solid fa-check text-cyan-400 mr-2 mt-1"></i> Hiêu rõ nguyên lý hoạt động của máy tính, Internet cùng các mô hình AI/Machine Learning cơ bản trong đời sống.</li>
+                            <li class="flex items-start"><i class="fa-solid fa-check text-cyan-400 mr-2 mt-1"></i> Thành thạo khai thác thông tin, làm chủ công cụ AI thông qua kỹ thuật viết prompt hiệu quả để sáng tạo nội dung số chuyên nghiệp.</li>
+                            <li class="flex items-start"><i class="fa-solid fa-check text-cyan-400 mr-2 mt-1"></i> Nâng cao ý thức cộng tác trực tuyến, bảo vệ bản quyền dữ liệu cá nhân và duy trì tính liêm chính học thuật.</li>
+                        </ul>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-delay="300" class="bg-slate-900/40 border border-slate-800/80 p-6 rounded-xl hover:border-cyan-500/20 transition-all duration-300">
+                        <h3 class="text-lg font-bold text-white mb-3 flex items-center">
+                            <i class="fa-solid fa-rocket text-cyan-400 mr-2.5"></i> Điểm tâm đắc nhất
+                        </h3>
+                        <p class="text-slate-400 text-sm leading-relaxed">
+                            Điều tôi tự hào và tâm đắc nhất là tinh thần tò mò, sẵn sàng thử nghiệm các công cụ công nghệ mới để vượt qua giới hạn của bản thân. Học phần giúp tôi biết cách chuyển hóa những nền tảng lý thuyết trên lớp thành kỹ năng thực tế nhằm áp dụng hiệu quả vào các môn học khác cũng như các dự án phân tích dữ liệu của riêng mình.
+                        </p>
+                    </div>
+                </div>
+
+                <div data-aos="fade-up" data-aos-delay="400" class="bg-slate-900/40 border border-slate-800/80 p-6 rounded-xl border-l-4 border-l-amber-500/50 hover:border-slate-700 transition-all duration-300">
+                    <h3 class="text-lg font-bold text-white mb-3 flex items-center text-amber-400">
+                        <i class="fa-solid fa-triangle-exclamation mr-2.5"></i> Thách thức gặp phải
+                    </h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Thách thức lớn nhất đối với tôi là phải rèn luyện tính kiên trì để học tập liên tục, liên tục cập nhật dòng chảy tri thức mới nhằm thích nghi với những thay đổi công nghệ nhanh chóng. Bên cạnh đó, việc chủ động bước ra khỏi vùng an toàn để chia sẻ kinh nghiệm, tương tác và phối hợp làm việc nhóm hiệu quả với bạn bè cũng là một kỹ năng cần nhiều thời gian để hoàn thiện.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="border-t border-slate-900 bg-[#060910] py-8 text-center text-xs text-slate-500">
+        <p>© 2026 Võ Mạnh Dũng. Học phần Nhập môn công nghệ số & Ứng dụng AI.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init({ once: true });</script>
+</body>
+</html>
